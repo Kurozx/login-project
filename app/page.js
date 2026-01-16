@@ -131,7 +131,7 @@ export default function Dashboard() {
 
   const handleLogout = () => {
     Swal.fire({
-      title: 'ออกจากระบบ?',
+      title: 'ต้องการออกจากระบบหรือไม่ ?',
       icon: 'question',
       showCancelButton: true,
       confirmButtonColor: '#d33',
